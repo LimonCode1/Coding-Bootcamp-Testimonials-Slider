@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  font-size: 32px;
+  background-image: url("./images/pattern-bg.svg"), url("./images/pattern-curve.svg"), url("./images/pattern-quotes.svg");
+  background-repeat: no-repeat;
+  background-position: 90% 10vh, 0% 80vh, 20% 30vh;
+  background-size: 85vh, 85vh, 20vh;
+}
+
+.card {
+  width: 80%;
+  height: 70vh;
+  margin: 15vh 10%;
+  background: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.card .profile-girl {
+  width: 100%;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card .profile-girl .Overview {
+  width: 100%;
+  background: green;
+}
+
+.card .profile-girl .Name {
+  width: 100%;
+  background: peru;
+}
+
+.card .profile-girl img {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.card .profile-men {
+  display: none;
+}
+/*# sourceMappingURL=index.css.map */
